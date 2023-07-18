@@ -4,10 +4,9 @@ public class Spynumber
     public static void main(String[] args)
     {
         int num,prod=1,sum=0,ld;
-        try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter a number to check: ");
-            num=sc.nextInt();
-        }
+        Scanner sc = new Scanner(System.in); 
+        System.out.print("Enter a number to check: ");
+        num=sc.nextInt();
         while(num>0)
         {
             ld=num%10;
