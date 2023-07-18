@@ -1,4 +1,3 @@
-import java.lang.*; 
 class student 
 { 
     String name; 

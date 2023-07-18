@@ -5,9 +5,10 @@ public class tel
     {
         int numberofcalls;
         float phonebill;
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the total number of calss made this month: ");
-        numberofcalls=sc.nextInt(); 
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter the total number of calss made this month: ");
+            numberofcalls=sc.nextInt();
+        }
         if (numberofcalls<=60) 
             phonebill=14;
         else
