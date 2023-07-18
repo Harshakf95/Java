@@ -1,6 +1,4 @@
-import java.io.IOException;
 import java.util.*;
-import java.io.*;
 public class Randomno 
 {
 public static void main(String[] args) 

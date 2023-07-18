@@ -17,9 +17,10 @@ class ComputeElectricityBill extends CalculateBill
     public static void main(String args[])
     {
         long units;
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter number of units");
-        units=sc.nextLong();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("enter number of units");
+            units=sc.nextLong();
+        }
         ComputeElectricityBill b=new ComputeElectricityBill();
         b.Bill(units);
         System.out.println("Bill to pay : " + b.billpay);

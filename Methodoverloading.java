@@ -1,4 +1,4 @@
-class area
+class Methodoverloading
 {
     void area(float x)
     {

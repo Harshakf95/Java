@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-
 public class Positive 
 {
     public static void main(String a[])

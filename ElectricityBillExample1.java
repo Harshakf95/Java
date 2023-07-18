@@ -1,7 +1,7 @@
 // Java implementation to calculate the
 // electricity bill
 
-import java.util.*;
+
 class ElectricityBillExample1 
 {
 	// Function to calculate the
