@@ -30,5 +30,5 @@ public class Calculator
         else
         System.out.println("Invalid choice!");
     }
-    Scanner.close();    
+    scanner.close();    
 }

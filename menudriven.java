@@ -13,7 +13,7 @@ class menudriven
             System.out.println("3. Option 3");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
-            choice = scanner.nextInt();
+            choice = sc.nextInt();
             switch (choice) 
             {
                 case 1:
@@ -33,6 +33,5 @@ class menudriven
                     break;
             }
         } while(choice != 4);
-        scanner.close();
     }
 }
