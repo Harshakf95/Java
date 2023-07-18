@@ -1,6 +1,4 @@
 import java.util.*;
-
-import javax.lang.model.util.ElementScanner14;
 public class Calculator 
 {
     public static void main(String[] args) 
@@ -31,5 +29,6 @@ public class Calculator
         }
         else
         System.out.println("Invalid choice!");
-    }    
+    }
+    Scanner.close();    
 }
