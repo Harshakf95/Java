@@ -4,9 +4,9 @@ public class Spynumber
     public static void main(String[] args)
     {
         int num,prod=1,sum=0,ld;
-        Scanner sc = new Scanner(System.in); 
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter a number to check: ");
-        num=sc.nextInt();
+        num=scanner.nextInt();
         while(num>0)
         {
             ld=num%10;
@@ -19,4 +19,5 @@ public class Spynumber
         else
             System.out.println("Given number is not a spy number");
     }
+    scanner.close();
 }
