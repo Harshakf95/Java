@@ -15,8 +15,8 @@ public class Spynumber
             num/=10;
         }
         if(prod==sum)
-            System.out.print("Given number is a spy number");
+            System.out.println("Given number is a spy number");
         else
-            System.out.print("Given number is not a spy number");
+            System.out.println("Given number is not a spy number");
     }
 }
