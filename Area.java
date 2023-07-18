@@ -1,4 +1,4 @@
-class area
+public class Area
 {
 void area(float x) 
 { 
@@ -14,9 +14,9 @@ System.out.println("Area of the Triangle:"+0.5*x*y);
 } 
 public static void main(String args[]) 
 { 
-area circle=new area(); 
-area rectangle=new area(); 
-area triangle=new area(); 
+Area circle=new Area(); 
+Area rectangle=new Area(); 
+Area triangle=new Area(); 
 circle.area(2.2f); 
 rectangle.area(2.4f,7.0f); 
 triangle.area(2,4); 
