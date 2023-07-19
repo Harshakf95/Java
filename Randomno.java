@@ -1,7 +1,8 @@
+import java.io.IOException;
 import java.util.*;
 public class Randomno 
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)throws IOException 
     {
         Random obj = new Random();
         for(int i=0;i<50;i++)
